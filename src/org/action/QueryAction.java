@@ -24,7 +24,7 @@ public class QueryAction extends ActionSupport{
         if(i!=0)
             return ERROR;
         List list=query.all();
-        request.put("all",list);
+        request.put("all",list);//
         return SUCCESS;
     }
     public String persons()throws Exception{
